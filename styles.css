@@ -45,7 +45,7 @@ body {
   height: 100%;
   width: 33.3%;
   padding: 2.5rem 3rem;
-  border-radius: 1rem 0 0 1rem;
+  border-radius: .75rem 0 0 .75rem;
 }
 
 .suvs {
@@ -60,7 +60,7 @@ body {
   height: 100%;
   width: 33.3%;
   padding: 2.5rem 3rem;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 .75rem .75rem 0;
 }
 
 .icon {
@@ -136,21 +136,23 @@ body {
   .card {
     flex-direction: column;
     width: 25rem;
-    height: 70rem;
+    height: 80rem;
   }
 
   .sedans {
-  width: 100%;
-  height: 33.3%;
+    width: 100%;
+    height: 33.3%;
+    border-radius: .75rem .75rem 0 0;
   }
 
   .suvs {
-  width: 100%;
-  height: 33.3%;
+    width: 100%;
+    height: 33.3%;
   }
 
   .luxury {
-  width: 100%;
-  height: 33.3%;
+    width: 100%;
+    height: 33.3%;
+    border-radius: 0 0 .75rem .75rem;
   }
 }
