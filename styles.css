@@ -1,1 +1,123 @@
+@font-face {
+  font-family: "Big Shoulders";
+  src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+}
+
+:root {
+/* Primary */
+--gold500: hsl(31, 77%, 52%);
+--cyan800: hsl(184, 100%, 22%);
+--green950: hsl(179, 100%, 13%);
+
+/* Neutral */
+--white: hsla(0, 0%, 100%, 0.75);
+--gray100: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--gray100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 68rem;
+  height: 32rem;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.sedans {
+  background-color: var(--gold500);
+  height: 100%;
+  width: 33.3%;
+  padding: 2.5rem 3rem;
+}
+
+.suvs {
+  background-color: var(--cyan800);
+  height: 100%;
+  width: 33.3%;
+  padding: 2.5rem 3rem;
+}
+
+.luxury {
+  background-color: var(--green950);
+  height: 100%;
+  width: 33.3%;
+  padding: 2.5rem 3rem;
+}
+
+.icon {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header {
+  font-family: "Big Shoulders";
+  font-size: 2rem;
+  width: 100%;
+  text-align: left;
+  color: var(--gray100);
+  margin: 2rem 0;
+}
+
+.info {
+  width: 100%;
+  text-align: left;
+  color: var(--white);
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.button {
+  border-radius: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.sedans .button {
+  color: var(--gold500);
+  background-color: var(--gray100);
+}
+
+.suvs .button {
+  color: var(--cyan800);
+  background-color: var(--gray100);
+}
+
+.luxury .button {
+  color: var(--green950);
+  background-color: var(--gray100);
+}
+
+.sedans .button:hover {
+  color: var(--gold500);
+  background-color: var(--gold500);
+}
+
+.suvs .button:hover {
+  color: var(--cyan800);
+  background-color: var(--cyan800);
+}
+
+.luxury .button:hover {
+  color: var(--green950);
+  background-color: var(--green950);
+}
+
 
