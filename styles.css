@@ -92,7 +92,7 @@ body {
   border-radius: 2rem;
   display: flex;
   align-items: flex-start;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   text-align: center;
   width: 50%;
 }
@@ -103,35 +103,35 @@ a {
   font-size: 1rem;
 }
 
-.sedans .button {
+.sedans a {
   color: var(--gold500);
   background-color: var(--gray100);
 }
 
-.suvs .button {
+.suvs a {
   color: var(--cyan800);
   background-color: var(--gray100);
 }
 
-.luxury .button {
+.luxury a {
   color: var(--green950);
   background-color: var(--gray100);
 }
 
-.sedans .button:hover {
-  color: var(--gold500);
+.sedans a:hover {
+  color: var(--gray100);
   background-color: var(--gold500);
   border: 2px solid white;
 }
 
-.suvs .button:hover {
-  color: var(--cyan800);
+.suvs a:hover {
+  color: var(--gray100);
   background-color: var(--cyan800);
   border: 2px solid white;
 }
 
-.luxury .button:hover {
-  color: var(--green950);
+.luxury a:hover {
+  color: var(--gray100);
   background-color: var(--green950);
   border: 2px solid white;
 }
