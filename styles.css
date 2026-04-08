@@ -86,7 +86,7 @@ body {
   text-align: left;
   color: var(--white);
   line-height: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 4.5rem;
 }
 
 .button {
@@ -97,11 +97,11 @@ body {
 a {
   text-decoration: none;
   font-family: "Lexend Deca";
-  font-size: .825rem;
+  font-size: .95rem;
   padding: 1rem 2rem;
   text-align: center;
   border-radius: 2rem;
-  width: 60%;
+  width: 56%;
 }
 
 .sedans a {
