@@ -92,12 +92,15 @@ body {
   border-radius: 2rem;
   display: flex;
   align-items: flex-start;
-  font-family: "Lexend Deca";
-  font-size: 1rem;
   padding: 1rem 2rem;
-  text-decoration: none;
   text-align: center;
   width: 50%;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Lexend Deca";
+  font-size: 1rem;
 }
 
 .sedans .button {
