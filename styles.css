@@ -70,7 +70,7 @@ body {
 
 .header {
   font-family: "Big Shoulders";
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   width: 100%;
   text-align: left;
@@ -79,6 +79,7 @@ body {
 }
 
 .info {
+  font-family: "Lexend Deca";
   width: 100%;
   font-size: 1rem;
   text-align: left;
@@ -91,9 +92,11 @@ body {
   border-radius: 2rem;
   display: flex;
   align-items: flex-start;
+  font-family: "Lexend Deca";
   font-size: 1rem;
   padding: 1rem 2rem;
   text-decoration: none;
+  text-align: center;
 }
 
 .sedans .button {
