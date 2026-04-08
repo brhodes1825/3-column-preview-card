@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Big Shoulders";
-  src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
 }
 
 @font-face {
   font-family: "Lexend Deca";
-  src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
 }
 
 :root {
